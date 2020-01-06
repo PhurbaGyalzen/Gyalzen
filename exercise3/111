@@ -1,0 +1,11 @@
+factorial without using recursion
+def factorial(num):
+    handsome=1
+    if num ==0:
+        initial=1
+    else:
+        for i in range(num,0,-1):
+            initial=handsome*i
+            handsome=initial
+    return initial
+print(factorial(5))
